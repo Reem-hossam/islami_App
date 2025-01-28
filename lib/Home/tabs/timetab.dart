@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 
 class TimeTab extends StatelessWidget {
   const TimeTab({super.key});
@@ -27,6 +28,7 @@ class TimeTab extends StatelessWidget {
                       Text("Pray Time\n Tuesday",style: TextStyle(fontSize:20, color: Color.fromRGBO(32, 32, 32, 0.9),),),
                       Text("09 Muh,\n 1446 ",style: TextStyle(fontSize: 16, color: Colors.white,),),
                     ],),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [

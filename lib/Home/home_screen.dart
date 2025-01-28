@@ -1,5 +1,5 @@
 
-import 'package:eslamytask/Home/tabs/hadethtab.dart';
+
 import 'package:eslamytask/Home/tabs/quran%20tab/qurantab.dart';
 import 'package:eslamytask/Home/tabs/radiodetails/radiotab.dart';
 import 'package:eslamytask/Home/tabs/sebhatab.dart';
@@ -7,6 +7,7 @@ import 'package:eslamytask/Home/tabs/timetab.dart';
 import 'package:flutter/material.dart';
 
 import 'bottom_nav_bar.dart';
+import 'tabs/ahadeth/hadethtab.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName="Home";
